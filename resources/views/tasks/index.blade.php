@@ -9,13 +9,20 @@
           <p>
             {{ $task->description}}
           </p> 
-          <form action="/tasks/{{ $task->id }}" method="POST">
-            @method('PATCH')
-            @csrf
-            @if(!$task->isCompleted())
-              <button class="btn btn-light btn-block" input="submit"> Complete</button>
-            @endif
-          </form>
+
+          @if(!$task->isCompleted())
+            <form action="/tasks/{{ $task->id }}" method="POST">
+              @method('PATCH')
+              @csrf
+              <button class="btn btn-light btn-block" input="submit">Complete</button>
+            </form>
+          @else
+            <form action="/tasks/{{ $task->id }}" method="POST">
+              @method('DELETE')
+              @csrf
+              <button class="btn btn-danger btn-block" input="submit">Delete</button>
+            </form>
+          @endif
         </div>
       </div>
     @endforeach

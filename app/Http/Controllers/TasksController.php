@@ -26,11 +26,9 @@ class TasksController extends Controller
             'description' => request('description'),
         ]);
 
-        // Return to the homepage when a task is created
         return redirect('/');
     }
 
-    // Mark a task as completed
     public function update($id) {
         $task = Task::where('id', $id)->first();
 
@@ -40,6 +38,12 @@ class TasksController extends Controller
         return redirect('/');
     }
 
-    // Divide the tasks into completed and uncompleted section
-    // Delete a task permanently
+    // Delete a task
+    public function delete($id) {
+        $task = Task::where('id', $id)->first();
+
+        $task->delete();
+
+        return redirect('/');
+    }
 }
