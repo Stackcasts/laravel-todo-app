@@ -17,32 +17,32 @@ And much more... We look forward to having you join us!
 
 **Article** https://stackcasts.com/episodes/laravel-tutorial-for-beginners-step-by-step-todo-app-episode-1
 
-**YouTube** https://www.youtube.com/watch?v=ZmV_-mHVeqg
+**YouTube** https://youtu.be/ZmV_-mHVeqg
 
 ## Episode 2
 
-... Scheduled
+https://youtu.be/6ueZBC3OZd0
 
 ## Episode 3
 
-... Scheduled
+https://youtu.be/SI0hlPDT6l0
 
 ## Episode 4
 
-... Scheduled
+https://youtu.be/p-jYqBes9rc
 
 ## Episode 5
 
-... Scheduled
+https://youtu.be/4aZwPSUmL5Y
 
 ## Episode 6
 
-... Scheduled
+https://youtu.be/mAHtwgc7NB8
 
 ## Episode 7
 
-... Scheduled
+https://youtu.be/IowopupSIeI
 
 ## Episode 8
 
-... Scheduled
+https://youtu.be/gFAFcJFATzc
